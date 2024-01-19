@@ -41,7 +41,7 @@ while True:
     r = jogo()
     if r == 1:
         a = aleatorio()
-        escolha = input('Diga se o número gerado anteriormente é primo ou não. Escolha S para sim e N para não').upper()
+        escolha = input('Diga se o número gerado anteriormente é primo ou não. Escolha S para sim e N para não: ').upper()
         sePrimo = primo(a)
         
         if escolha == 'S' and sePrimo == True:
